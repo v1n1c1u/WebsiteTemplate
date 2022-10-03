@@ -1,0 +1,169 @@
+@font-face {
+    font-family: "Roboto";
+    src: url('../fonts/Roboto-Black.ttf');
+}
+
+@font-face {
+    font-family: "Roboto-Thin";
+    src: url('../fonts/Roboto-Thin.ttf');
+}
+body{    
+    margin: 0px;
+    padding: 0px;
+    font-family: 'Roboto', sans-serif;
+}
+header, footer{
+    color:#F9FaF8;
+    background-color: #1f2937;
+}
+header,section{
+    padding-left: 10%;
+    padding-right: 10%;
+}
+#header-text-div{
+    display: flex;
+    justify-content: space-between;
+    padding-top: 10px;
+}
+#header-logo-text{
+    font-weight: bold;
+    font-size: 24px;
+}
+#information-header{
+    text-align: center;
+    font-size: 36px;
+    font-weight: bolder;
+    color: #1f2937;
+}
+
+#header-nav a {
+    font-size: 18px;
+    color: #E5E7EB;
+    text-decoration: none;
+    margin-left:10px;
+    margin-right: 10px;
+}
+#header-nav a:hover {
+    color:#F9FaF8;
+    text-decoration:underline;
+}
+.sign-up-button{
+    border-style: none;
+    width:100px;
+    padding-top:5px;
+    padding-bottom: 5px;
+    border-radius: 5px;
+    font-weight: bold;
+    background-color: #3882F6;
+    color:#F9FaF8;
+
+}
+
+.header-content-div{
+    display: flex;
+}
+
+#header-text-title{
+    font-size: 48px;
+}
+#header-text-container{
+    width: 40vmax;
+    margin:10px;
+}
+#header-text-container p {
+    text-align: justify;
+    color:#E5E7EB;
+}
+
+#header-img-div{
+    padding:5%;
+    text-align: center;
+}
+#header-img{
+    width: 500px;
+}
+
+#logo{
+    width: 100px;
+}
+
+#random-info-div{
+    display: flex;
+    justify-content: center;
+    margin-bottom: 100px;
+}
+figure{
+    margin:20px;
+    width:150px;
+}
+figure img{
+    border-style: solid;
+    border-width: 3px;
+    border-color: #3882F6;
+    border-radius: 10px;
+    width: 150px;
+    height:150px;
+}
+figure figcaption{
+    text-align: center;
+    color:#1F2937;
+    margin-top:10px;
+}
+#section-2{
+    padding:0%;
+}
+#quote-div{
+    background-color: #E5E7EB;
+    text-align: justify;
+    padding: 5vmax 20vmax 5vmax 20vmax;
+}
+
+#quote-div span{
+    font-size: medium;
+    font-weight: bold;
+    font-size: 28px;
+    color: #1f2937;
+}
+@media (max-width:1000px){
+    #quote-div {
+        padding: 5vmax 5vmax 5vmax 5vmax;
+    }
+}
+#quote-text{
+    color: #1F2937;
+    font-size: 36px;
+    font-weight:300;
+    font-style: italic;
+}
+#section-3{
+    margin-top: 100px;
+    margin-bottom: 100px;
+}
+#call-to-action-div{
+    display: flex;
+    justify-content: space-between;
+    padding:45px 100px 45px 100px;
+    background-color: #3882F6;
+    color:#E5E7EB;
+    border-radius: 10px;
+    border-style: none;
+    align-items: center;
+    font-size: 25px;
+}
+
+#call-to-action-div .sign-up-button{
+    border-style: solid;
+    height: min-content;
+    width: 7vmax;
+    border-color: #F9FaF8;
+    font-size: 20px;
+}
+
+#call-to-action{
+    color:#F9FaF8;
+    font-weight: bold;
+}
+footer{
+    text-align: center;
+    padding: 20px;
+}
