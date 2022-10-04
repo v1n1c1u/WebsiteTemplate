@@ -25,6 +25,21 @@ header,section{
     justify-content: space-between;
     padding-top: 10px;
 }
+@media (max-width:890px){
+    header,section{
+        padding-left: 0;
+        padding-right: 0;
+    }
+    .header-content-div{
+        flex-direction: column;
+    }
+    .header-content-div img{
+        width:100px;
+    }
+    #header-text-container{
+        width: 100%;
+    }
+}
 #header-logo-text{
     font-weight: bold;
     font-size: 24px;
@@ -53,10 +68,7 @@ header,section{
     padding-top:5px;
     padding-bottom: 5px;
     border-radius: 5px;
-    font-weight: bold;
     background-color: #3882F6;
-    color:#F9FaF8;
-
 }
 
 .header-content-div{
@@ -119,9 +131,8 @@ figure figcaption{
 }
 
 #quote-div span{
-    font-size: medium;
     font-weight: bold;
-    font-size: 28px;
+    font-size: 25px;
     color: #1f2937;
 }
 @media (max-width:1000px){
@@ -139,6 +150,29 @@ figure figcaption{
     margin-top: 100px;
     margin-bottom: 100px;
 }
+#section-4{
+    display: flex;
+    justify-content: center;
+    min-height: 830px;
+}
+#section-4-div{
+    display: flex;
+    justify-content: space-evenly;
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+}
+#section-4-div div{
+    margin-left:20px;
+    margin-right: 20px;
+}
+
+#author-div{
+    padding-right: 2vmax;
+    text-align: right;
+}
+
 #call-to-action-div{
     display: flex;
     justify-content: space-between;
@@ -159,6 +193,12 @@ figure figcaption{
     font-size: 20px;
 }
 
+.sign-up-button a{
+    font-weight: bold;
+    color:#F9FaF8;
+    text-decoration: none;
+}
+
 #call-to-action{
     color:#F9FaF8;
     font-weight: bold;
@@ -166,4 +206,7 @@ figure figcaption{
 footer{
     text-align: center;
     padding: 20px;
+    position: relative;
+    left: 0;
+    bottom:-12px;
 }
